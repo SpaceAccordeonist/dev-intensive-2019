@@ -63,18 +63,5 @@ object Utils {
         }
     }
 
-    enum class TimeUnits : Pluralable {
-        SECOND {
-            override val words: Array<String> = arrayOf("секунд", "секунду", "секунды")
-        },
-        MINUTE {
-            override val words: Array<String> = arrayOf("минут", "минуту", "минуты")
-        },
-        HOUR {
-            override val words: Array<String> = arrayOf("часов", "час", "часа")
-        },
-        DAY {
-            override val words: Array<String> = arrayOf("дней", "день", "дня")
-        };
-    }
+
 }
